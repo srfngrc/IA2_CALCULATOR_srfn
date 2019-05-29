@@ -13,6 +13,12 @@ namespace IA2_CALCULATOR_srfn
     public partial class BasicCalculator : Form
     {
         string textToOutput = "";
+        int temporalcounter;
+        int temporalcounter1;
+        int finalcount;
+        int serafin = 0;
+        bool boolvariable;
+        string operator;
         public BasicCalculator()
         {
             InitializeComponent();
@@ -21,12 +27,14 @@ namespace IA2_CALCULATOR_srfn
         {
             textToOutput = textToOutput + "1";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput,out temporalcounter);
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "2";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         
@@ -88,31 +96,45 @@ namespace IA2_CALCULATOR_srfn
         {
             textToOutput = textToOutput + " + ";
             txtMain.Text = textToOutput;
+            temporalcounter1 = temporalcounter;
+            temporalcounter = 0;
+            operator = '+';
         }
 
         private void BtnSubstract_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + " - ";
             txtMain.Text = textToOutput;
+            temporalcounter1 = temporalcounter;
+            temporalcounter = 0;
+            operator = '-';
         }
 
         private void BtnMultiply_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + " x ";
             txtMain.Text = textToOutput;
+            temporalcounter1 = temporalcounter;
+            temporalcounter = 0;
+            operator = 'x';
         }
 
         private void BtnDivide_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + " / ";
             txtMain.Text = textToOutput;
+            temporalcounter1 = temporalcounter;
+            temporalcounter = 0;
+            operator = '/';
         }
 
 
         private void Button12_Click(object sender, EventArgs e)
         {
+            //serafin = (int) txtMain.Text;
             //txtMain.Text = textToOutput;
-            Close();
+            finalcount = temporalcounter1 operator temporalcounter;
+            //Close();
         }
     }
 }
