@@ -13,12 +13,14 @@ namespace IA2_CALCULATOR_srfn
     public partial class BasicCalculator : Form
     {
         string textToOutput = "";
-        int temporalcounter;
-        int temporalcounter1;
+        int temporalcounter = 0;
+        public int counter1 = 0;
+        public int counter2 = 0;
+        public int counter3 = 0;
         int finalcount;
         int serafin = 0;
         bool boolvariable;
-        string operator;
+        string operator2019 = "Empty";
         public BasicCalculator()
         {
             InitializeComponent();
@@ -42,90 +44,121 @@ namespace IA2_CALCULATOR_srfn
         {
             textToOutput = textToOutput + "3";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "4";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "5";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "6";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void Button7_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "7";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void Button8_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "8";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void Button9_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "9";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void Button10_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + "0";
             txtMain.Text = textToOutput;
+            boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void BtnPoint_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + ".";
             txtMain.Text = textToOutput;
+            //boolvariable = int.TryParse(textToOutput, out temporalcounter);
         }
 
         private void BtnAdd_Click(object sender, EventArgs e)
         {
-            textToOutput = textToOutput + " + ";
-            txtMain.Text = textToOutput;
-            temporalcounter1 = temporalcounter;
-            temporalcounter = 0;
-            operator = '+';
+            if (operator2019 == "Empty")
+            {
+                counter1 = temporalcounter;
+                temporalcounter = 0;
+                operator2019 = "+";
+
+                textToOutput = "";
+                txtMain.Text = textToOutput;
+            }
+            else
+            {
+                counter2 = temporalcounter;
+                temporalcounter = 0;
+                if (operator2019 == "+") { counter1 = counter1 + counter2; }
+                else if (operator2019 == "-") { counter1 = counter1 - counter2; }
+                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "/") { counter1 = counter1 / counter2; }
+                else MessageBox.Show("Error by all means", "ERROR WINDOW");
+                counter2 = 0;
+                operator2019 = "Empty";
+
+                textToOutput = counter1.ToString();
+                txtMain.Text = textToOutput;
+                textToOutput = "";
+            }
+            
+            
         }
 
         private void BtnSubstract_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + " - ";
             txtMain.Text = textToOutput;
-            temporalcounter1 = temporalcounter;
+            counter1 = temporalcounter;
             temporalcounter = 0;
-            operator = '-';
+            operator2019 = "-";
         }
 
         private void BtnMultiply_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + " x ";
             txtMain.Text = textToOutput;
-            temporalcounter1 = temporalcounter;
+            counter1 = temporalcounter;
             temporalcounter = 0;
-            operator = 'x';
+            operator2019 = "x";
         }
 
         private void BtnDivide_Click(object sender, EventArgs e)
         {
             textToOutput = textToOutput + " / ";
             txtMain.Text = textToOutput;
-            temporalcounter1 = temporalcounter;
+            counter1 = temporalcounter;
             temporalcounter = 0;
-            operator = '/';
+            operator2019 = "/";
         }
 
 
@@ -133,8 +166,8 @@ namespace IA2_CALCULATOR_srfn
         {
             //serafin = (int) txtMain.Text;
             //txtMain.Text = textToOutput;
-            finalcount = temporalcounter1 operator temporalcounter;
-            //Close();
+            finalcount = 1 + 2;
+            //finalcount = temporalcounter1 int(operator2019) temporalcounter;
         }
     }
 }
