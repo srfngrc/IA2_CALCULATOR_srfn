@@ -214,7 +214,7 @@
             this.btnPoint.Name = "btnPoint";
             this.btnPoint.Size = new System.Drawing.Size(49, 36);
             this.btnPoint.TabIndex = 16;
-            this.btnPoint.Text = ".";
+            this.btnPoint.Text = "Delete";
             this.btnPoint.UseVisualStyleBackColor = true;
             this.btnPoint.Click += new System.EventHandler(this.BtnPoint_Click);
             // 
