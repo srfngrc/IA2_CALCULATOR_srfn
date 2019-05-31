@@ -124,7 +124,7 @@ namespace IA2_CALCULATOR_srfn
                 else if (operator2019 == "/") { counter1 = counter1 / counter2; }
                 else MessageBox.Show("Error by all means", "ERROR WINDOW");
                 counter2 = 0;
-                operator2019 = "Empty";
+                operator2019 = "+";
 
                 textToOutput = counter1.ToString();
                 txtMain.Text = textToOutput;
@@ -136,38 +136,107 @@ namespace IA2_CALCULATOR_srfn
 
         private void BtnSubstract_Click(object sender, EventArgs e)
         {
-            textToOutput = textToOutput + " - ";
-            txtMain.Text = textToOutput;
-            counter1 = temporalcounter;
-            temporalcounter = 0;
-            operator2019 = "-";
+            if (operator2019 == "Empty")
+            {
+                counter1 = temporalcounter;
+                temporalcounter = 0;
+                operator2019 = "-";
+
+                textToOutput = "";
+                txtMain.Text = textToOutput;
+            }
+            else
+            {
+                counter2 = temporalcounter;
+                temporalcounter = 0;
+                if (operator2019 == "+") { counter1 = counter1 + counter2; }
+                else if (operator2019 == "-") { counter1 = counter1 - counter2; }
+                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "/") { counter1 = counter1 / counter2; }
+                else MessageBox.Show("Error by all means", "ERROR WINDOW");
+                counter2 = 0;
+                operator2019 = "-";
+
+                textToOutput = counter1.ToString();
+                txtMain.Text = textToOutput;
+                textToOutput = "";
+            }
         }
 
         private void BtnMultiply_Click(object sender, EventArgs e)
         {
-            textToOutput = textToOutput + " x ";
-            txtMain.Text = textToOutput;
-            counter1 = temporalcounter;
-            temporalcounter = 0;
-            operator2019 = "x";
+            if (operator2019 == "Empty")
+            {
+                counter1 = temporalcounter;
+                temporalcounter = 0;
+                operator2019 = "*";
+
+                textToOutput = "";
+                txtMain.Text = textToOutput;
+            }
+            else
+            {
+                counter2 = temporalcounter;
+                temporalcounter = 0;
+                if (operator2019 == "+") { counter1 = counter1 + counter2; }
+                else if (operator2019 == "-") { counter1 = counter1 - counter2; }
+                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "/") { counter1 = counter1 / counter2; }
+                else MessageBox.Show("Error by all means", "ERROR WINDOW");
+                counter2 = 0;
+                operator2019 = "*";
+
+                textToOutput = counter1.ToString();
+                txtMain.Text = textToOutput;
+                textToOutput = "";
+            }
         }
 
         private void BtnDivide_Click(object sender, EventArgs e)
         {
-            textToOutput = textToOutput + " / ";
-            txtMain.Text = textToOutput;
-            counter1 = temporalcounter;
-            temporalcounter = 0;
-            operator2019 = "/";
+            if (operator2019 == "Empty")
+            {
+                counter1 = temporalcounter;
+                temporalcounter = 0;
+                operator2019 = "/";
+
+                textToOutput = "";
+                txtMain.Text = textToOutput;
+            }
+            else
+            {
+                counter2 = temporalcounter;
+                temporalcounter = 0;
+                if (operator2019 == "+") { counter1 = counter1 + counter2; }
+                else if (operator2019 == "-") { counter1 = counter1 - counter2; }
+                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "/") { counter1 = counter1 / counter2; }
+                else MessageBox.Show("Error by all means", "ERROR WINDOW");
+                counter2 = 0;
+                operator2019 = "/";
+
+                textToOutput = counter1.ToString();
+                txtMain.Text = textToOutput;
+                textToOutput = "";
+            }
         }
 
 
         private void Button12_Click(object sender, EventArgs e)
         {
-            //serafin = (int) txtMain.Text;
-            //txtMain.Text = textToOutput;
-            finalcount = 1 + 2;
-            //finalcount = temporalcounter1 int(operator2019) temporalcounter;
+            counter2 = temporalcounter;
+            temporalcounter = 0;
+            if (operator2019 == "+") { counter1 = counter1 + counter2; }
+            else if (operator2019 == "-") { counter1 = counter1 - counter2; }
+            else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+            else if (operator2019 == "/") { counter1 = counter1 / counter2; }
+            else MessageBox.Show("Error by all means", "ERROR WINDOW");
+            counter2 = 0;
+            operator2019 = "Empty";
+
+            textToOutput = counter1.ToString();
+            txtMain.Text = textToOutput;
+            textToOutput = "";
         }
     }
 }
