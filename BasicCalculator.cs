@@ -20,7 +20,7 @@ namespace IA2_CALCULATOR_srfn
         int finalcount;
         int serafin = 0;
         bool boolvariable;
-        string operator2019 = "Empty";
+        public string operator2019 = "Empty";
         public BasicCalculator()
         {
             InitializeComponent();
@@ -114,13 +114,20 @@ namespace IA2_CALCULATOR_srfn
                 textToOutput = "";
                 txtMain.Text = textToOutput;
             }
+            else if (operator2019 == "Equals")
+            {
+                operator2019 = "+";
+
+                textToOutput = "";
+                txtMain.Text = textToOutput;
+            }
             else
             {
                 counter2 = temporalcounter;
                 temporalcounter = 0;
                 if (operator2019 == "+") { counter1 = counter1 + counter2; }
                 else if (operator2019 == "-") { counter1 = counter1 - counter2; }
-                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "*") { counter1 = counter1 * counter2; }
                 else if (operator2019 == "/") { counter1 = counter1 / counter2; }
                 else MessageBox.Show("Error by all means", "ERROR WINDOW");
                 counter2 = 0;
@@ -145,13 +152,14 @@ namespace IA2_CALCULATOR_srfn
                 textToOutput = "";
                 txtMain.Text = textToOutput;
             }
+           
             else
             {
                 counter2 = temporalcounter;
                 temporalcounter = 0;
                 if (operator2019 == "+") { counter1 = counter1 + counter2; }
                 else if (operator2019 == "-") { counter1 = counter1 - counter2; }
-                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "*") { counter1 = counter1 * counter2; }
                 else if (operator2019 == "/") { counter1 = counter1 / counter2; }
                 else MessageBox.Show("Error by all means", "ERROR WINDOW");
                 counter2 = 0;
@@ -180,7 +188,7 @@ namespace IA2_CALCULATOR_srfn
                 temporalcounter = 0;
                 if (operator2019 == "+") { counter1 = counter1 + counter2; }
                 else if (operator2019 == "-") { counter1 = counter1 - counter2; }
-                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "*") { counter1 = counter1 * counter2; }
                 else if (operator2019 == "/") { counter1 = counter1 / counter2; }
                 else MessageBox.Show("Error by all means", "ERROR WINDOW");
                 counter2 = 0;
@@ -209,7 +217,7 @@ namespace IA2_CALCULATOR_srfn
                 temporalcounter = 0;
                 if (operator2019 == "+") { counter1 = counter1 + counter2; }
                 else if (operator2019 == "-") { counter1 = counter1 - counter2; }
-                else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+                else if (operator2019 == "*") { counter1 = counter1 * counter2; }
                 else if (operator2019 == "/") { counter1 = counter1 / counter2; }
                 else MessageBox.Show("Error by all means", "ERROR WINDOW");
                 counter2 = 0;
@@ -228,7 +236,7 @@ namespace IA2_CALCULATOR_srfn
             temporalcounter = 0;
             if (operator2019 == "+") { counter1 = counter1 + counter2; }
             else if (operator2019 == "-") { counter1 = counter1 - counter2; }
-            else if (operator2019 == "x") { counter1 = counter1 * counter2; }
+            else if (operator2019 == "*") { counter1 = counter1 * counter2; }
             else if (operator2019 == "/") { counter1 = counter1 / counter2; }
             else MessageBox.Show("Error by all means", "ERROR WINDOW");
             counter2 = 0;

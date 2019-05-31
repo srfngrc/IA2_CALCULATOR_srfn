@@ -18,3 +18,13 @@ C:\Repos\IA2_CALCULATOR_srfn\obj\Debug\IA2_CALCULATOR_srfn.csproj.GenerateResour
 C:\Repos\IA2_CALCULATOR_srfn\obj\Debug\IA2_CALCULATOR_srfn.csproj.CoreCompileInputs.cache
 C:\Repos\IA2_CALCULATOR_srfn\obj\Debug\IA2_CALCULATOR_srfn.exe
 C:\Repos\IA2_CALCULATOR_srfn\obj\Debug\IA2_CALCULATOR_srfn.pdb
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\bin\Debug\IA2_CALCULATOR_srfn.exe.config
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\bin\Debug\IA2_CALCULATOR_srfn.exe
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\bin\Debug\IA2_CALCULATOR_srfn.pdb
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.csprojAssemblyReference.cache
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.BasicCalculator.resources
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.Properties.Resources.resources
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.csproj.GenerateResource.cache
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.csproj.CoreCompileInputs.cache
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.exe
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.pdb
