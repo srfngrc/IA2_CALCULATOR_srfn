@@ -244,5 +244,11 @@ namespace IA2_CALCULATOR_srfn
             txtMain.Text = textToOutput;
             textToOutput = "";
         }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            weigth_convertor_Form WCF_weigth = new weigth_convertor_Form();
+            WCF_weigth.Show();
+        }
     }
 }

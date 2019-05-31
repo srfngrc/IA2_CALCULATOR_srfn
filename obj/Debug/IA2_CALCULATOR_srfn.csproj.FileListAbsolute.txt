@@ -28,3 +28,4 @@ C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.csproj.
 C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.csproj.CoreCompileInputs.cache
 C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.exe
 C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.pdb
+C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.weigth_convertor_Form.resources
