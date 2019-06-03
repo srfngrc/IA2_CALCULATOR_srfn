@@ -23,20 +23,20 @@ namespace IA2_CALCULATOR_srfn
         {
             if (TBlbsTOkgs.Text == "0")
             {
-                //no hace nada
+                MessageBox.Show("Please enter a numeric value different to 0", "No valid data entered");
+                TBlbsTOkgs.Focus();
             }
             else
             {
-                //TryParse
                 if (double.TryParse(TBlbsTOkgs.Text, out numDouble))
                 {
-                    //MessageBox.Show("string converted to double nicely");
                     numDouble2 = numDouble * 0.453592;
                     TBlbsTOkgs.Text = numDouble2.ToString();
                 }
                 else
                 {
-                    MessageBox.Show("shit!");
+                    MessageBox.Show("Please enter a numeric value to convert", "No valid data entered");
+                    TBlbsTOkgs.Focus();
                 }
             }
         }
@@ -45,22 +45,37 @@ namespace IA2_CALCULATOR_srfn
         {
             if (TBlbsTOkgs.Text == "0")
             {
-                //no hace nada
+                MessageBox.Show("Please enter a numeric value different to 0", "No valid data entered");
+                TBlbsTOkgs.Focus();
+
             }
             else
             {
-                //TryParse
                 if (double.TryParse(TBlbsTOkgs.Text, out numDouble))
                 {
-                    //MessageBox.Show("string converted to double nicely");
                     numDouble2 = numDouble * 2.20462;
                     TBlbsTOkgs.Text = numDouble2.ToString();
                 }
                 else
                 {
-                    MessageBox.Show("shit!");
+                    MessageBox.Show("Please enter a numeric value to convert", "No valid data entered");
+                    TBlbsTOkgs.Focus();
+
                 }
             }
+        }
+
+         private void BtnClose_Click(object sender, EventArgs e)
+         {
+            Close();
+         }
+
+         private void BtnReset_Click(object sender, EventArgs e)
+        {
+            TBlbsTOkgs.Text = "";
+            numDouble = 0.00;
+            numDouble2 = 0.00;
+            TBlbsTOkgs.Focus();
         }
     }
 }

@@ -48,6 +48,7 @@
             this.button12 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnCloseCalc = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -253,12 +254,24 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 19;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
+            // 
+            // btnCloseCalc
+            // 
+            this.btnCloseCalc.Location = new System.Drawing.Point(23, 341);
+            this.btnCloseCalc.Name = "btnCloseCalc";
+            this.btnCloseCalc.Size = new System.Drawing.Size(214, 20);
+            this.btnCloseCalc.TabIndex = 20;
+            this.btnCloseCalc.Text = "Close Calculator";
+            this.btnCloseCalc.UseVisualStyleBackColor = true;
+            this.btnCloseCalc.Click += new System.EventHandler(this.BtnCloseCalc_Click);
             // 
             // BasicCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(250, 338);
+            this.ClientSize = new System.Drawing.Size(251, 364);
+            this.Controls.Add(this.btnCloseCalc);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button12);
@@ -310,6 +323,7 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnCloseCalc;
     }
 }
 

@@ -250,5 +250,17 @@ namespace IA2_CALCULATOR_srfn
             weigth_convertor_Form WCF_weigth = new weigth_convertor_Form();
             WCF_weigth.Show();
         }
+
+        private void BtnCloseCalc_Click(object sender, EventArgs e)
+        {
+            Close();
+            //cerrar todas las ventanas!!!
+        }
+
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            distance_convertor_Form DCF_distance = new distance_convertor_Form();
+            DCF_distance.Show();
+        }
     }
 }

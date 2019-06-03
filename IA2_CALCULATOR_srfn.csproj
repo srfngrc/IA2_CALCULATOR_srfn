@@ -52,6 +52,12 @@
     <Compile Include="BasicCalculator.Designer.cs">
       <DependentUpon>BasicCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="distance_convertor_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distance_convertor_Form.Designer.cs">
+      <DependentUpon>distance_convertor_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="weigth_convertor_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BasicCalculator.resx">
       <DependentUpon>BasicCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distance_convertor_Form.resx">
+      <DependentUpon>distance_convertor_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="weigth_convertor_Form.resx">
       <DependentUpon>weigth_convertor_Form.cs</DependentUpon>
@@ -94,6 +103,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="pictures\weigth_convertor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pictures\one-Pound.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pictures\kilogramsSRFN.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

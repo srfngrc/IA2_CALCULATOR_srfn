@@ -40,3 +40,4 @@ C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.pdb
 C:\Repos\v2\bin\Debug\IA2_CALCULATOR_srfn.exe.config
 C:\Repos\v2\bin\Debug\IA2_CALCULATOR_srfn.exe
 C:\Repos\v2\bin\Debug\IA2_CALCULATOR_srfn.pdb
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.distance_convertor_Form.resources
