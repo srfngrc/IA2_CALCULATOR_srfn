@@ -58,6 +58,12 @@
     <Compile Include="distance_convertor_Form.Designer.cs">
       <DependentUpon>distance_convertor_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="weigth_convertor_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,14 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,6 +110,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="pictures\kilogramsSRFN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pictures\2milesSRFN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pictures\one-kilometer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pictures\1-MILE-srfn.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

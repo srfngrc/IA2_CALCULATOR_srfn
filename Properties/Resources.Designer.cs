@@ -29,9 +29,10 @@ namespace IA2_CALCULATOR_srfn.Properties {
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Resources()
+        {
         }
-        
+
         /// <summary>
         ///   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
         /// </summary>
@@ -63,6 +64,26 @@ namespace IA2_CALCULATOR_srfn.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_MILE_srfn {
+            get {
+                object obj = ResourceManager.GetObject("1-MILE-srfn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1_MILE_srfn1 {
+            get {
+                object obj = ResourceManager.GetObject("1-MILE-srfn1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap distance_convertor {
             get {
                 object obj = ResourceManager.GetObject("distance_convertor", resourceCulture);
@@ -76,6 +97,16 @@ namespace IA2_CALCULATOR_srfn.Properties {
         internal static System.Drawing.Bitmap kilogramsSRFN {
             get {
                 object obj = ResourceManager.GetObject("kilogramsSRFN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap one_kilometer {
+            get {
+                object obj = ResourceManager.GetObject("one-kilometer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

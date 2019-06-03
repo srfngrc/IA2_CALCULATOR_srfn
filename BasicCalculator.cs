@@ -247,18 +247,19 @@ namespace IA2_CALCULATOR_srfn
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
+            //we open the weigth convertor window, keeping the Calculator window opened
             weigth_convertor_Form WCF_weigth = new weigth_convertor_Form();
             WCF_weigth.Show();
         }
 
         private void BtnCloseCalc_Click(object sender, EventArgs e)
         {
-            Close();
-            //cerrar todas las ventanas!!!
+            Application.Exit(); //we close all windows, not just the Calculator's.
         }
 
         private void PictureBox2_Click(object sender, EventArgs e)
         {
+            //we open the distance convertor window, keeping the Calculator window opened
             distance_convertor_Form DCF_distance = new distance_convertor_Form();
             DCF_distance.Show();
         }

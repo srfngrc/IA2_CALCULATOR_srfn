@@ -44,7 +44,7 @@
             this.pictureBox1.Image = global::IA2_CALCULATOR_srfn.Properties.Resources.one_Pound;
             this.pictureBox1.Location = new System.Drawing.Point(29, 67);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(106, 99);
+            this.pictureBox1.Size = new System.Drawing.Size(109, 99);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -63,7 +63,7 @@
             // 
             // TBlbsTOkgs
             // 
-            this.TBlbsTOkgs.Location = new System.Drawing.Point(154, 116);
+            this.TBlbsTOkgs.Location = new System.Drawing.Point(157, 111);
             this.TBlbsTOkgs.Name = "TBlbsTOkgs";
             this.TBlbsTOkgs.Size = new System.Drawing.Size(100, 20);
             this.TBlbsTOkgs.TabIndex = 2;
