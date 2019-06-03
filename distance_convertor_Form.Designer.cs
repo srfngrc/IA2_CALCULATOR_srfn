@@ -41,7 +41,7 @@
             // 
             // TBmilesTOkms
             // 
-            this.TBmilesTOkms.Location = new System.Drawing.Point(157, 111);
+            this.TBmilesTOkms.Location = new System.Drawing.Point(166, 111);
             this.TBmilesTOkms.Name = "TBmilesTOkms";
             this.TBmilesTOkms.Size = new System.Drawing.Size(100, 20);
             this.TBmilesTOkms.TabIndex = 3;
@@ -88,16 +88,17 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::IA2_CALCULATOR_srfn.Properties.Resources.one_kilometer;
-            this.pictureBox3.Location = new System.Drawing.Point(274, 67);
+            this.pictureBox3.Location = new System.Drawing.Point(290, 67);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(109, 99);
+            this.pictureBox3.Size = new System.Drawing.Size(97, 99);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.PictureBox3_Click);
+            this.pictureBox3.Click += new System.EventHandler(this.PictureBox3_Click_1);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::IA2_CALCULATOR_srfn.Properties.Resources._1_MILE_srfn;
             this.pictureBox1.Location = new System.Drawing.Point(29, 67);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(106, 99);

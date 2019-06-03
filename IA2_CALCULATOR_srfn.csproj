@@ -58,6 +58,7 @@
     <Compile Include="distance_convertor_Form.Designer.cs">
       <DependentUpon>distance_convertor_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\IResources.cs" />
     <Compile Include="Properties\Resources.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -110,9 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="pictures\kilogramsSRFN.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="pictures\2milesSRFN.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="pictures\one-kilometer.jpg" />

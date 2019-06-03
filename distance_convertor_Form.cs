@@ -24,27 +24,27 @@ namespace IA2_CALCULATOR_srfn
             Close();
         }
 
-        private void PictureBox3_Click(object sender, EventArgs e)
-        {
-            if (TBmilesTOkms.Text == "0")
-            {
-                MessageBox.Show("Please enter a numeric value different to 0", "No valid data entered");
-                TBmilesTOkms.Focus();
-            }
-            else
-            {
-                if (double.TryParse(TBmilesTOkms.Text, out numDouble3))
-                {
-                    numDouble4 = numDouble3 * 1.609;
-                    TBmilesTOkms.Text = numDouble4.ToString();
-                }
-                else
-                {
-                    MessageBox.Show("Please enter a numeric value to convert", "No valid data entered");
-                    TBmilesTOkms.Focus();
-                }
-            }
-        }
+        //private void PictureBox3_Click(object sender, EventArgs e)
+        //{
+        //    if (TBmilesTOkms.Text == "0")
+        //    {
+        //        MessageBox.Show("Please enter a numeric value different to 0", "No valid data entered");
+        //        TBmilesTOkms.Focus();
+        //    }
+        //    else
+        //    {
+        //        if (double.TryParse(TBmilesTOkms.Text, out numDouble3))
+        //        {
+        //            numDouble4 = numDouble3 * 1.609;
+        //            TBmilesTOkms.Text = numDouble4.ToString();
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Please enter a numeric value to convert", "No valid data entered");
+        //            TBmilesTOkms.Focus();
+        //        }
+        //    }
+        //}
 
         private void BtnReset2_Click(object sender, EventArgs e)
         {
@@ -74,6 +74,28 @@ namespace IA2_CALCULATOR_srfn
                     MessageBox.Show("Please enter a numeric value to convert", "No valid data entered");
                     TBmilesTOkms.Focus();
 
+                }
+            }
+        }
+
+        private void PictureBox3_Click_1(object sender, EventArgs e)
+        {
+            if (TBmilesTOkms.Text == "0")
+            {
+                MessageBox.Show("Please enter a numeric value different to 0", "No valid data entered");
+                TBmilesTOkms.Focus();
+            }
+            else
+            {
+                if (double.TryParse(TBmilesTOkms.Text, out numDouble3))
+                {
+                    numDouble4 = numDouble3 * 1.609;
+                    TBmilesTOkms.Text = numDouble4.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Please enter a numeric value to convert", "No valid data entered");
+                    TBmilesTOkms.Focus();
                 }
             }
         }

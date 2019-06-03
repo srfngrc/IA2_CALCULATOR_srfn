@@ -5,5 +5,9 @@ namespace IA2_CALCULATOR_srfn.Properties
     internal class Resources
     {
         internal static Image one_kilometer;
+
+        public Resources()
+        {
+        }
     }
 }
