@@ -29,3 +29,14 @@ C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.csproj.
 C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.exe
 C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.pdb
 C:\VSRepositories\IA2_CALCULATOR_srfnREPO2\obj\Debug\IA2_CALCULATOR_srfn.weigth_convertor_Form.resources
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.csprojAssemblyReference.cache
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.BasicCalculator.resources
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.weigth_convertor_Form.resources
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.Properties.Resources.resources
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.csproj.GenerateResource.cache
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.csproj.CoreCompileInputs.cache
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.exe
+C:\Repos\v2\obj\Debug\IA2_CALCULATOR_srfn.pdb
+C:\Repos\v2\bin\Debug\IA2_CALCULATOR_srfn.exe.config
+C:\Repos\v2\bin\Debug\IA2_CALCULATOR_srfn.exe
+C:\Repos\v2\bin\Debug\IA2_CALCULATOR_srfn.pdb
